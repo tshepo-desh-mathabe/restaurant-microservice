@@ -1,0 +1,32 @@
+package dubby.serve.emailservice.payload;
+
+public class VerificationBody {
+
+    private Integer verificationToken;
+    private String emailAddress;
+    private String fullName;
+
+    public Integer getVerificationToken() {
+        return verificationToken;
+    }
+
+    public void setVerificationToken(Integer verificationToken) {
+        this.verificationToken = verificationToken;
+    }
+
+    public String getEmailAddress() {
+        return emailAddress;
+    }
+
+    public void setEmailAddress(String emailAddress) {
+        this.emailAddress = emailAddress;
+    }
+
+    public String getFullName() {
+        return fullName;
+    }
+
+    public void setFullName(String fullName) {
+        this.fullName = fullName;
+    }
+}
